@@ -10,3 +10,8 @@ main{
   height: 101vh;
   overflow: hidden;
 }
+
+@keyframes slidein{
+  0%{width: 0}
+  100%{width: 100vw}
+}
