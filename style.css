@@ -1,0 +1,17 @@
+main{
+  position: absolute;
+}
+
+#slidein{
+  position: relative;
+  z-index: 3;
+  background: midnightblue;
+  width: 0;
+  height: 101vh;
+  overflow: hidden;
+}
+
+@keyframes slidein{
+  0%{width: 0}
+  100%{width: 100vw}
+}
