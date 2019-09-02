@@ -5,6 +5,12 @@
   <body>
     <h1>title</h1>
     <p>hello</p>
+    <a onclick="document.getElementById("slidein").style.animation = "";
+    document.getElementById("slidein").style.background = "crimson";
+    document.getElementById("slidein").style.animation = "slidein 2.0s ease-in-out forwards";
+    document.body.style.pointerEvents="none";
+    document.body.style.overflowY="hidden";
+    return false;"></a>
     <div style="display:flex">
       <div id="slidein"></div>
       <main>hehe</main>
